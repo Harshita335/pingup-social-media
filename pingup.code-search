@@ -1,0 +1,36 @@
+# Query: pingup
+# Flags: CaseSensitive WordMatch RegExp
+# ContextLines: 1
+
+7 results - 6 files
+
+pingup\.env:
+  1: # Example environment variables pingup-mern
+  2  # Copy this file to .env and fill values (do NOT commit real secrets).
+
+pingup\package-lock.json:
+  1  {
+  2:   "name": "pingup",
+  3    "version": "1.0.0",
+
+  7      "": {
+  8:       "name": "pingup",
+  9        "version": "1.0.0",
+
+pingup\README.md:
+  41  git clone https://github.com/jigar-sable/instagram-mern.git
+  42: cd pingup-mern
+  43  ```
+
+pingup\backend\config\.env:
+  1  PORT=4000
+  2: MONGO_URI=mongodb://localhost:27017/pingup
+  3  
+
+pingup\frontend\build\index.html:
+  1: <!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>pingup</title><script defer="defer" src="/static/js/main.99425b85.js"></script><link href="/static/css/main.c369afd6.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+
+pingup\frontend\public\index.html:
+  26      -->
+  27:     <title>pingup</title>
+  28    </head>
