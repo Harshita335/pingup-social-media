@@ -106,10 +106,8 @@ Now your app should be running successfully 🎉
 - 👍 Post Liked By Users Tracking
 - 😄 Emoji Integration via Emoji Mart
 
-**Image Storage**
-- 📷 Branch [dev-v3-cloudinary](https://github.com/jigar-sable/instagram-mern/tree/dev-v3-cloudinary): Utilizes Cloudinary for Image Storage
-- ☁️ Branch [dev-v2-aws](https://github.com/jigar-sable/instagram-mern/tree/dev-v2-aws): Leverages AWS S3 for Image Storage
-- 💾 Branch [dev-v1](https://github.com/jigar-sable/instagram-mern/tree/dev-v1): Relies on Local Storage Solution
+
+
 
 
 
