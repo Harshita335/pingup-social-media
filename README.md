@@ -1,114 +1,318 @@
-# Pingup MERN
-Full-Stack Pingup Social Media using MERN Stack and Socket.IO
+# 🚀 PingUp - Advanced Social Media Platform
 
-[Visit Now]() 🚀
+PingUp is a modern **full-stack social media web application** built using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**.
 
-## 🖥️ Tech Stack
-**Frontend:**
+PingUp allows users to connect with others, share posts, schedule stories, send and receive payments, get notifications, chat in real-time, and customize their experience with themes and profile settings.
 
-![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![react-router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)&nbsp;
-![redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)&nbsp;
-![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
-![mui](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)&nbsp;
+The goal of this project is to create a **modern, scalable, and feature-rich social media platform**.
 
-**Backend:**
+---
 
-![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)&nbsp;
-![expressjs](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)&nbsp;
-![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
-![jwt](	https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)&nbsp;
+# 🌐 Project Overview
 
-**Realtime Communication:**
+PingUp combines traditional social media functionality with modern features such as **story scheduling, payments, notifications, and theme customization.**
 
-![socketio](https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white)
+Users can:
 
-**Cloud Storage:**
+• Create and manage profiles
+• Share posts and stories
+• Schedule stories in advance
+• Send and receive payments
+• Receive real-time notifications
+• Chat with other users
+• Customize themes and profile settings
 
-![aws-s3](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+---
 
-**Cloud Storage:** [Cloudinary](https://cloudinary.com/)
+# 🛠 Tech Stack
 
-**Mail Service:** [Sendgrid](https://sendgrid.com/)
+## Frontend
 
+• React.js
+• Tailwind CSS
+• Redux Toolkit
+• React Router
 
-## ⚙️ How to Run the Project (Setup Instructions)
+## Backend
 
-Follow the steps below to get the project running locally 👇
+• Node.js
+• Express.js
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/jigar-sable/instagram-mern.git
-cd pingup-mern
-```
-### 2️⃣ Setup Backend
-```bash
+## Database
+
+• MongoDB
+
+## Real-Time Communication
+
+• Socket.IO
+
+## Authentication
+
+• JWT (JSON Web Tokens)
+
+## Media Storage
+
+• Cloudinary
+
+---
+
+# ✨ Core Features
+
+## 🔐 Authentication System
+
+• Secure User Registration
+• Login / Logout System
+• JWT Authentication
+• Password Encryption
+
+---
+
+# 👤 User Profile Management
+
+• Update Profile Information
+• Change Profile Picture
+• Add Bio and Personal Details
+• View Other User Profiles
+
+---
+
+# 📸 Post System
+
+• Create Posts
+• Upload Images
+• Like / Unlike Posts
+• Comment on Posts
+• Delete Posts
+
+---
+
+# 📖 Story System
+
+• Upload Stories
+• View Stories
+• Story Expiration System
+
+---
+
+# ⏳ Pre-Scheduled Story Feature
+
+Users can schedule their stories to be posted automatically in the future.
+
+Examples:
+
+• Post story after 1 hour
+• Post story after 3 hours
+• Post story after 12 hours
+• Post story after 24 hours
+
+This feature allows users to **plan content in advance**.
+
+---
+
+# ⏱ Story Duration Control
+
+Users can choose **how long their story remains visible**.
+
+Available options:
+
+• 6 Hours
+• 12 Hours
+• 24 Hours
+• Custom Duration
+
+Once the selected time is completed, the story **automatically disappears.**
+
+---
+
+# 💬 Real-Time Chat System
+
+• Private Messaging
+• Instant Message Delivery
+• Online / Offline Status
+
+Powered by **Socket.IO** for real-time communication.
+
+---
+
+# 💳 Payment System
+
+PingUp includes a built-in **user-to-user payment feature**.
+
+Users can:
+
+• Send Money to Other Users
+• Receive Payments
+• View Payment Confirmation
+
+This feature is useful for **creators, collaborations, and digital support.**
+
+---
+
+# 💰 Payment Receive Notification
+
+Whenever a user receives a payment:
+
+• Instant notification appears
+• Payment confirmation is displayed
+• Transaction alert is generated
+
+This ensures users never miss any payment activity.
+
+---
+
+# 🔔 Notification System
+
+Users receive notifications for:
+
+• New Followers
+• Likes on Posts
+• Comments on Posts
+• New Messages
+• Payment Received
+
+---
+
+# 🎨 Theme Customization
+
+Users can customize the application theme.
+
+Available options:
+
+• Light Mode
+• Dark Mode
+
+This helps improve **user comfort and accessibility.**
+
+---
+
+# ⚙️ Account Settings
+
+Users can manage their account settings:
+
+• Update Profile
+• Change Password
+• Change Theme
+• Manage Notifications
+
+---
+
+# 📂 Project Structure
+
+pingup-social-media
+
+backend
+├ controllers
+├ middleware
+├ models
+├ routes
+├ config
+
+frontend
+├ components
+├ pages
+├ redux
+├ utils
+
+server.js
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+git clone https://github.com/Harshita335/pingup-social-media.git
+
+Move to project folder
+
+cd pingup-social-media
+
+---
+
+# 2️⃣ Install Backend Dependencies
+
 npm install
-```
 
-Before running the backend, go to:
-```bash
-backend/config/config.env.example
-```
+Create `.env` file
 
-Rename this file to:
-config.env
-and update it with your environment variables (like MongoDB URI, JWT secret, etc.).
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+PORT=5000
+CLOUDINARY_KEY=your_cloudinary_key
 
-Then start the backend server:
-```bash
+Run backend
+
 npm run dev
-```
 
-### 3️⃣ Setup Frontend
-From the root directory, navigate to the frontend folder:
-```bash
+---
+
+# 3️⃣ Setup Frontend
+
 cd frontend
-```
 
-Install dependencies:
-```bash
+Install dependencies
+
 npm install
-```
 
-Start the frontend server:
-```bash
+Run frontend
+
 npm start
-```
 
-Now your app should be running successfully 🎉
+---
 
-## 🚀 Features
-**Authentication and User Management**
-- ✨ Secure Login/Signup Functionality
-- 🚪 Support for Email or Username-based Login
-- 🔐 Seamless Profile and Password Management
-- 🔄 Password Reset via Sendgrid Integration
+# 🔐 Environment Variables
 
-**Content Management**
-- 📜 Dynamic Infinite Scroll for Posts
-- 🔍 Suggestions for User Connections
-- 🔎 Intuitive Search for Users by Name or Username
-- 🔗 Follow/Unfollow Capability for User Networking
-- ❤️ Like/Unlike Posts with Double-Tap Feature
-- 💬 Commenting on Posts for Interaction
-- 📌 Save/Unsave Posts for Bookmarking
-- 📤 Effortless Post-Sharing Functionality
+Create `.env` file
 
-**Messaging System**
-- 🔍 User-Friendly Search for Chat Participants
-- 📝 Seamless Creation of New Chats
-- 💬 Real-Time Messaging Between Users
-- 🕒 Status Indicators for Typing and Online Presence
+Example:
 
-**Social Features**
-- 📊 Comprehensive View of Followers/Following Lists
-- 👍 Post Liked By Users Tracking
-- 😄 Emoji Integration via Emoji Mart
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+CLOUDINARY_API_KEY=your_key
+SENDGRID_API_KEY=your_key
 
+---
 
+# 🚀 Deployment
 
+Frontend → Vercel
 
+Backend → Render / Vercel
 
+Database → MongoDB Atlas
 
+---
 
+# 📸 Screenshots
+
+You can add screenshots of:
+
+• Home Feed
+• User Profile
+• Story Section
+• Payment Interface
+• Notifications Panel
+
+---
+
+# 🔮 Future Improvements
+
+• Video Stories
+• Group Chat
+• Push Notifications
+• Mobile App Version
+
+---
+
+# 👩‍💻 Author
+
+Harshita Shukla
+
+GitHub
+https://github.com/Harshita335
+
+---
+
+# ⭐ Support
+
+If you like this project, please give it a **star ⭐ on GitHub.**
