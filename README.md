@@ -1,7 +1,7 @@
 # Pingup MERN
-Full-Stack Pingup Clone using MERN Stack and Socket.IO
+Full-Stack Pingup Social Media using MERN Stack and Socket.IO
 
-[Visit Now](https://instagramweb-mern.vercel.app) 🚀
+[Visit Now]() 🚀
 
 ## 🖥️ Tech Stack
 **Frontend:**
@@ -131,3 +131,4 @@ Feel free to reach me through the below handles if you'd like to contact me.
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sablee)
 [![instagram](https://img.shields.io/badge/Pingup-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jigarsable.dev)
+
